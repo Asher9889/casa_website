@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <div className='w-full  mx-auto max-w-[1200px] px-2 py-3 '>
+    <div className='w-full  mx-auto max-w-[1200px] px-2  '>
       <Home />
     </div>
   )

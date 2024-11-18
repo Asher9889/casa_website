@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
+import { Home } from "../pages";
 import casaimage from "../assets/Casa.png"
 
 export default function Header(){
@@ -9,9 +10,9 @@ export default function Header(){
     ];
 
     return (
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between py-6">
             <div className="w-24">
-                <img src={casaimage} alt="" />
+                <NavLink to={"/"}><img src={casaimage} alt="" /></NavLink>
             </div>
             <div className="flex flex-row gap-6 text-lg font-Kanit">
                 {nav_links.map((link)=>(

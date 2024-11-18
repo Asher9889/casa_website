@@ -3,9 +3,10 @@ import Download from "../../components/Download";
 
 export default function About() {
   return (
-    <div className="w-full  mx-auto max-w-[1200px] px-2 py-3">
+    <div className="w-full  mx-auto max-w-[1200px] px-2 flex flex-col gap-8 ">
       <Header />
-      <h1 className="mt-8 text-center text-xl ">
+      <h1 className="text-center text-3xl font-Kanit">About Us</h1>
+      <h1 className=" text-center text-xl ">
       About Us Welcome to CASA, where fashion meets innovation. We are
       redefining the online shopping experience with a fun, interactive, and
       engaging platform designed to make discovering new styles effortless and

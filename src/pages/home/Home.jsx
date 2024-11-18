@@ -4,7 +4,7 @@ import HomeBody from "./HomeBody.jsx";
 
 export default function Home(){
     return (
-        <div className="">
+        <div className="mb-10">
             <Header />
             <HomeBody />
         </div>
